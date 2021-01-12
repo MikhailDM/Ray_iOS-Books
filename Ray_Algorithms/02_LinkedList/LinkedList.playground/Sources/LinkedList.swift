@@ -1,5 +1,7 @@
 import Foundation
 
+//MARK: - Linked List
+
 public struct LinkedList<Value> {
     
     public var head: Node<Value>?
@@ -186,3 +188,40 @@ extension LinkedList: Collection {
     }
 }
 
+extension LinkedList {
+    public mutating func reverse() {
+        tail = head
+        var prev = head
+        var current = head?.next
+        prev?.next = nil
+        while current != nil {
+            let next = current?.next
+            current?.next = prev
+            prev = current
+            current = next
+        }
+        head = prev
+    }
+}//
+
+//MARK: - Node
+public class Node<Value> {
+    
+    public var value: Value
+    public var next: Node?
+    
+    public init(value: Value, next: Node? = nil) {
+        self.value = value
+        self.next = next
+    }
+    
+}//
+
+extension Node: CustomStringConvertible {
+    public var description: String {
+        guard let next = next else {
+            return "\(value)"
+        }
+        return "\(value) -> " + String(describing: next) + " "
+    }
+}//
