@@ -12,20 +12,20 @@ public struct Stack<Element> {
     }
     
     public mutating func push(_ element: Element) {
-      storage.append(element)
+        storage.append(element)
     }
     
     @discardableResult
     public mutating func pop() -> Element? {
-      storage.popLast()
+        storage.popLast()
     }
     
     public func peek() -> Element? {
-     storage.last
+        storage.last
     }
     
     public var isEmpty: Bool {
-      peek() == nil
+        peek() == nil
     }
     
 }//
@@ -34,7 +34,7 @@ extension Stack: ExpressibleByArrayLiteral {
     public init(arrayLiteral elements: Element...) {
         storage = elements
     }
-}
+}//
 
 extension Stack: CustomStringConvertible {
     public var description: String {
@@ -44,7 +44,7 @@ extension Stack: CustomStringConvertible {
         -----------
         """
     }
-}
+}//
 
 //example(of: "using a stack") {
 //    var stack = Stack<Int>()
@@ -70,6 +70,46 @@ example(of: "initializing a stack from an array literal") {
     var stack: Stack = [1.0, 2.0, 3.0, 4.0]
     print(stack)
     stack.pop()
-}
+}//
 
 //MARK: - Challenge 1. Reverse an Array
+//Create a function that prints the contents of an array in reversed order
+func printInReverse<T>(_ array: [T]) {
+    var stack = Stack<T>()
+    for value in array {
+        stack.push(value)
+    }
+    while let value = stack.pop() {
+        print(value)
+    }
+}//
+
+example(of: "Challenge 1") {
+    let stack: Stack = [1.0, 2.0, 3.0, 4.0]
+    print(stack)
+    printInReverse([1.0, 2.0, 3.0, 4.0])
+}
+
+//MARK: - Challenge 2. Balance the parentheses
+//Check for balanced parentheses. Given a string, check if there are ( and ) characters,
+//and return true if the parentheses in the string are balanced. For example:
+func checkParentheses(_ string: String) -> Bool {
+    var stack = Stack<Character>()
+    for character in string {
+        if character == "(" {
+            stack.push(character)
+        } else if character == ")" {
+            if stack.isEmpty {
+                return false
+            } else {
+                stack.pop()
+            }
+        }
+    }
+    return stack.isEmpty
+}
+
+example(of: "Challenge 2") {
+    print(checkParentheses("h((e))llo(world)()"))
+    print(checkParentheses("(hello world"))
+}
