@@ -19,6 +19,9 @@ Stack Data Structure
 ### 02_LinkedList
 Linked List Data Structure
 
+### 03_Queues
+Queue Data Structure
+
 <br />
 <br />
 
