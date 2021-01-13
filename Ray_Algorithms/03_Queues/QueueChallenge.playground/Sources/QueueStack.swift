@@ -30,16 +30,8 @@ public struct QueueStack<T> : Queue {
 extension QueueStack: CustomStringConvertible {
     
     public var description: String {
-        String(describing: leftStack.reversed() + rightStack)
+        let printList = leftStack.reversed() + rightStack
+        return String(describing: printList)
     }
     
 }//
-
-var queue = QueueStack<String>()
-queue.enqueue("Ray")
-queue.enqueue("Brian")
-queue.enqueue("Eric")
-queue
-queue.dequeue()
-queue
-queue.peek

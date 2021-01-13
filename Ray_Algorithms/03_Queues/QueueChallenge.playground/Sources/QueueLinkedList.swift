@@ -1,15 +1,8 @@
+// MARK: - LinkedList-based Queue
 public class QueueLinkedList<T>: Queue {
     
     private var list = DoublyLinkedList<T>()
     public init() {}
-    
-    public var peek: T? {
-        list.first?.value
-    }
-    
-    public var isEmpty: Bool {
-        list.isEmpty
-    }
     
     public func enqueue(_ element: T) -> Bool {
         list.append(element)
@@ -23,6 +16,14 @@ public class QueueLinkedList<T>: Queue {
         return list.remove(element)
     }
     
+    public var peek: T? {
+        list.first?.value
+    }
+    
+    public var isEmpty: Bool {
+        list.isEmpty
+    }
+    
 }//
 
 extension QueueLinkedList: CustomStringConvertible {
@@ -32,12 +33,3 @@ extension QueueLinkedList: CustomStringConvertible {
     }
     
 }//
-
-var queue = QueueLinkedList<String>()
-queue.enqueue("Ray")
-queue.enqueue("Brian")
-queue.enqueue("Eric")
-queue
-queue.dequeue()
-queue
-queue.peek
