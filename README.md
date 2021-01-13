@@ -22,6 +22,12 @@ Linked List Data Structure
 ### 03_Queues
 Queue Data Structure
 
+### 03_Queues
+Queue Data Structure
+
+### 04_Trees
+Tree Data Structure
+
 <br />
 <br />
 
