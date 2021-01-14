@@ -22,11 +22,10 @@ Linked List Data Structure
 ### 03_Queues
 Queue Data Structure
 
-### 03_Queues
-Queue Data Structure
-
 ### 04_Trees
 Tree Data Structure
+Binary Tree Data Structure
+Binary Search Tree Data Structure
 
 <br />
 <br />
