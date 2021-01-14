@@ -28,6 +28,8 @@ Binary Tree Data Structure
 Binary Search Tree Data Structure   
 AVL Tree Data Structure   
 Trie Data Structure   
+Heap Data Structure   
+Priority Queue Data Structure   
 Binary Search   
 
 <br />
