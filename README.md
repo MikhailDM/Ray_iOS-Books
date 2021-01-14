@@ -26,7 +26,9 @@ Queue Data Structure
 Tree Data Structure   
 Binary Tree Data Structure   
 Binary Search Tree Data Structure   
-AVL Tree Data Structure
+AVL Tree Data Structure   
+Trie Data Structure   
+Binary Search   
 
 <br />
 <br />
