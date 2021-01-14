@@ -23,9 +23,10 @@ Linked List Data Structure
 Queue Data Structure
 
 ### 04_Trees
-Tree Data Structure
-Binary Tree Data Structure
-Binary Search Tree Data Structure
+Tree Data Structure   
+Binary Tree Data Structure   
+Binary Search Tree Data Structure   
+AVL Tree Data Structure
 
 <br />
 <br />
