@@ -32,6 +32,11 @@ Heap Data Structure
 Priority Queue Data Structure   
 Binary Search   
 
+### 05_Sorting
+Bubble Sorting   
+Selection Sorting   
+Insertion Sorting   
+
 <br />
 <br />
 
