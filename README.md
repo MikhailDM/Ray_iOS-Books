@@ -37,6 +37,7 @@ Bubble Sorting
 Selection Sorting   
 Insertion Sorting   
 Merge Sorting   
+Radix Sorting   
 
 <br />
 <br />
