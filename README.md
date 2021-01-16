@@ -38,6 +38,7 @@ Selection Sorting
 Insertion Sorting   
 Merge Sorting   
 Radix Sorting   
+Heap Sorting   
 
 <br />
 <br />
