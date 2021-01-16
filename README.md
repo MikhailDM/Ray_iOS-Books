@@ -36,6 +36,7 @@ Binary Search
 Bubble Sorting   
 Selection Sorting   
 Insertion Sorting   
+Merge Sorting   
 
 <br />
 <br />
