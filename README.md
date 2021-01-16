@@ -39,6 +39,7 @@ Insertion Sorting
 Merge Sorting   
 Radix Sorting   
 Heap Sorting   
+QuickSort
 
 <br />
 <br />
