@@ -45,6 +45,8 @@ QuickSort
 Graph Data Structure   
 Breadth-First Search   
 Depth-First Search   
+Dijkstra’s Algorithm   
+Prim's Algorithm   
 
 <br />
 <br />
