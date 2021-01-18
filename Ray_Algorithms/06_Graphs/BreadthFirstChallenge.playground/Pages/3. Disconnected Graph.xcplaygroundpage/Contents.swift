@@ -1,6 +1,7 @@
 /*
  Add a method to Graph to detect if a graph is disconnected.
  To help you solve this challenge, a property allVertices was added to the Graph protocol:
+ 
  var allVertices: [Vertex<Element>] { get }
  This property is already implemented by AdjacencyMatrix and AdjacencyList.
  */
