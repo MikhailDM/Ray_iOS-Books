@@ -48,6 +48,9 @@ Depth-First Search
 Dijkstra’s Algorithm   
 Prim's Algorithm   
 
+### 07_HashTables
+Hash Table Data Structure
+
 <br />
 <br />
 
