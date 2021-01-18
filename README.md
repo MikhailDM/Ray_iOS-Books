@@ -44,6 +44,7 @@ QuickSort
 ### 06_Graphs
 Graph Data Structure   
 Breadth-First Search   
+Depth-First Search   
 
 <br />
 <br />
