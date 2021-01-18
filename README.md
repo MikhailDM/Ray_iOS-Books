@@ -42,8 +42,8 @@ Heap Sorting
 QuickSort
 
 ### 06_Graphs
-Graph Data Structure 
-Breadth-First Search
+Graph Data Structure   
+Breadth-First Search   
 
 <br />
 <br />
