@@ -55,7 +55,7 @@ Hash Table Data Structure
 <br />
 <br />
 
->## <a name="Ray_Algorithms"></a> Ray_Algorithms
+>## <a name="Ray_Animations"></a> Ray_Animations
 ### 01_SwiftUIIntroduction
 SwiftUI. Introduction to Animations
 ### 02_SwiftUIIntermediate
