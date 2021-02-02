@@ -4,9 +4,9 @@ Raywenderlich Tutorial Team Book's
 + [Ray_Algorithms ](#Ray_Algorithms)
 + [Ray_AutoLayout ](#Ray_AutoLayout)
 + [Ray_Concurrency](#Ray_Concurrency)
++ [Ray_CoreData](#Ray_CoreData)
 + [Ray_Patterns](#Ray_Patterns)
 + [Ray_PushNotifications](#Ray_PushNotifications)
-+ [Ray_Realm](#Ray_Realm)
 + [Ray_RxSwift](#Ray_RxSwift)
 
 <br />
@@ -128,6 +128,43 @@ Priority Inversion Problem
 <br />
 <br />
 
+>## <a name="Ray_CoreData"></a> Ray_CoreData
+### 01_HitList
+Сохраняем и загружаем с помощью CoreData простую сущность
+
+### 02_BowTies
+Сохраняем и загружаем с помощью CoreData сущности с разными типами данных   
+Загружаем данные из plist файла   
+Extension для UIColor
+
+### 03_DogWalk
+Создаем свой CoreDataStack   
+Взаимосвязи между сущностями. 1 сущность хранит несколько других   
+Удаление данных по свайпу в UITableView
+
+### 04_BubbleTeaFinder
+Работа с разными типами NSFetchRequest   
+Фильтрация данных при запросе к CoreData   
+Знакомство с NSBatchUpdateRequest/NSBatchDeleteReques
+
+### 05_NSFetchedResultsController
+NSFetchedResultsController and UITableView
+
+### 06_VersioningAndMigration
+Types of Migrations and Migrations Process
+
+### 07_UnitTesting
+CoreData Testing
+
+### 08_Performance
+CoreData Optimization
+
+### 09_MultipleManagedObjectContexts
+CoreData + SQLite
+
+<br />
+<br />
+
 >## <a name="Ray_Patterns"></a> Ray_Patterns
 ### 01_Playgrounds
 Patterns Overview
@@ -198,25 +235,6 @@ Actions after tapping PUSH message
 <br />
 <br />
 
->## <a name="Ray_Realm"></a> Ray_Realm
-### 01_Playgrounds
-+ **ObjectsAndDataPG**   
-Типы хранимых данных в Realm      
-Инициализация обьектов класса
-
-+ **CarRepairPG**   
-Взаимосвязи между Realm классами
-
-### 02_MyToDo
-Базовые действия с Realm - создание сущности/добавление/удаление/изменение
-
-### 03_Backlinks
-Взаимосвязи между Realm классами   
-Работа с List/LinkingObjects
-
-<br />
-<br />
-
 >## <a name="Ray_RxSwift"></a> Ray_RxSwift
 ### 01_Playgrounds
 Теория по Observable/Subjects/Operators
@@ -255,33 +273,19 @@ Final App with Rx
 Waiting List 
 =========================
 
->## <a name="Ray_CoreData"></a> Ray_CoreData
-### 01_HitList
-Сохраняем и загружаем с помощью CoreData простую сущность
+>## <a name="Ray_Realm"></a> Ray_Realm
+### 01_Playgrounds
++ **ObjectsAndDataPG**   
+Типы хранимых данных в Realm      
+Инициализация обьектов класса
 
-### 02_BowTies
-Сохраняем и загружаем с помощью CoreData сущности с разными типами данных   
-Загружаем данные из plist файла   
-Extension для UIColor
++ **CarRepairPG**   
+Взаимосвязи между Realm классами
 
-### 03_DogWalk
-Создаем свой CoreDataStack   
-Взаимосвязи между сущностями. 1 сущность хранит несколько других   
-Удаление данных по свайпу в UITableView
+### 02_MyToDo
+Базовые действия с Realm - создание сущности/добавление/удаление/изменение
 
-### 04_BubbleTeaFinder
-Работа с разными типами NSFetchRequest   
-Фильтрация данных при запросе к CoreData   
-Знакомство с NSBatchUpdateRequest/NSBatchDeleteReques
+### 03_Backlinks
+Взаимосвязи между Realm классами   
+Работа с List/LinkingObjects
 
-### 05_NSFetchedResultsController
-NSFetchedResultsController and UITableView
-
-### 06_VersioningAndMigration
-Types of Migrations and Migrations Process
-
-### 07_UnitTesting
-CoreData Testing
-
-### 08_Performance
-CoreData Optimization
