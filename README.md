@@ -273,3 +273,6 @@ Extension для UIColor
 Работа с разными типами NSFetchRequest   
 Фильтрация данных при запросе к CoreData   
 Знакомство с NSBatchUpdateRequest/NSBatchDeleteReques
+
+### 05_NSFetchedResultsController
+NSFetchedResultsController and UITableView
