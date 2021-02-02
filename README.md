@@ -282,3 +282,6 @@ Types of Migrations and Migrations Process
 
 ### 07_UnitTesting
 CoreData Testing
+
+### 08_Performance
+CoreData Optimization
