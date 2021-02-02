@@ -276,3 +276,6 @@ Extension для UIColor
 
 ### 05_NSFetchedResultsController
 NSFetchedResultsController and UITableView
+
+### 06_VersioningAndMigration
+Types of Migrations and Migrations Process
