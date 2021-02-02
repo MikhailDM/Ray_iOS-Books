@@ -2,6 +2,7 @@ Raywenderlich Tutorial Team Book's
 =========================
 
 + [Ray_Algorithms ](#Ray_Algorithms)
++ [Ray_Animations ](#Ray_Animations)
 + [Ray_AutoLayout ](#Ray_AutoLayout)
 + [Ray_Concurrency](#Ray_Concurrency)
 + [Ray_CoreData](#Ray_CoreData)
@@ -50,6 +51,15 @@ Prim's Algorithm
 
 ### 07_HashTables
 Hash Table Data Structure
+
+<br />
+<br />
+
+>## <a name="Ray_Algorithms"></a> Ray_Algorithms
+### 01_SwiftUIIntroduction
+SwiftUI. Introduction to Animations
+### 02_SwiftUIIntermediate
+SwiftUI. Intermediate Animations
 
 <br />
 <br />
