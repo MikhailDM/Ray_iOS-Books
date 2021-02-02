@@ -279,3 +279,6 @@ NSFetchedResultsController and UITableView
 
 ### 06_VersioningAndMigration
 Types of Migrations and Migrations Process
+
+### 07_UnitTesting
+CoreData Testing
