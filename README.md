@@ -64,6 +64,8 @@ SwiftUI. Intermediate Animations
 Transitions and Spring Animations
 ### 04_Keyframe
 Keyframe and Crossfading Animations
+### 05_AutoLayout
+Auto Layout Animations
 
 <br />
 <br />
