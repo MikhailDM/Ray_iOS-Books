@@ -60,6 +60,10 @@ Hash Table Data Structure
 SwiftUI. Introduction to Animations
 ### 02_SwiftUIIntermediate
 SwiftUI. Intermediate Animations
+### 03_Transitions
+Transitions and Spring Animations
+### 04_Keyframe
+Keyframe and Crossfading Animations
 
 <br />
 <br />
